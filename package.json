@@ -1,0 +1,36 @@
+{
+  "name": "healthapp",
+  "version": "1.0.0",
+  "description": "Health Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "DabaVala",
+    "Kitchen",
+    "Restaurant"
+  ],
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "jade": "^1.11.0",
+    "jsreport": "^2.1.0",
+    "jsreport-core": "^2.0.3",
+    "phantom-pdf": "^0.4.1",
+    "q": "^1.5.0",
+    "request": "^2.87.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {}
+}
