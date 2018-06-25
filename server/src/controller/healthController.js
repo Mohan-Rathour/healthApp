@@ -57,7 +57,7 @@ const healthController = {
                                 <th>Gender</th>
                                 <th>Home planet</th>
                               </tr>
-                              {{#each peoples.hospitals}}
+                              {{#each peoples}}
                                 <tr>
                                     <td style='padding: 10px;'>
                                         {{name}}

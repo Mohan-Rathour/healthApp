@@ -32,7 +32,6 @@ app.get('/', function (req, res) {
 });
 
 app.get('/api/healthReport', healthController.generateReport);
-app.get('/api/downloadReport', healthController.downloadReport);
 
 app.use(function (req, res, next) {
     err = new Error('Not Found');
